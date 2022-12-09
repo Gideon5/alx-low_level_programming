@@ -9,14 +9,14 @@ int main(void)
 {
 	int first, second;
 
-	for (first = 48; n <= 56; n++)
+	for (first = 48; first <= 56; first++)
 	{
 		for (second = 49; second <= 57; second++)
 		{
 			if (second > first)
 			{
-				putchar(n);
-				putchar(m);
+				putchar(first);
+				putchar(second);
 				if (n != 56 || m != 57)
 				{
 					putchar(',');
