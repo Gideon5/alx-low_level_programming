@@ -3,13 +3,13 @@
 /**
  * main - Prints all single digi numbers of base 10 starting from 0
  *
- * Retrun: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
 	int number;
 
-	for (number = 48; number < 598; number++)
+	for (number = 48; number < 59; number++)
 	{
 		putchar(number);
 	}
