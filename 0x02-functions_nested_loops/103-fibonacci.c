@@ -21,8 +21,8 @@ int main(void)
 			sum = sum + b;
 		}
 		next = b + c;
-		j = k;
-		k = next;
+		b = c;
+		c = next;
 	}
 
 	printf("%lu\n", sum);
