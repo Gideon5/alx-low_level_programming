@@ -11,6 +11,7 @@ int main(void)
 	long int q;
 	long int num;
 	long int largest;
+
 	num = 612852475143;
 	largest = -1;
 
