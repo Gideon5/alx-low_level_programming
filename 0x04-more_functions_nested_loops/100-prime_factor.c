@@ -32,7 +32,7 @@ int main(void)
 	if (num > 2)
 		largest = num;
 
-	printf("%ld\n",largest);
+	printf("%ld\n", largest);
 
 	return (0);
 }
