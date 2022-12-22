@@ -14,6 +14,7 @@ char *cap_string(char *str)
 	{
 		while (!(str[pos] >= 'a' && str[pos] <= 'z'))
 			pos++;
+
 		if (str[pos - 1] == ' ' ||
 				str[pos - 1] == '\t' ||
 				str[pos - 1] == '\n' ||
